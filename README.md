@@ -7,7 +7,7 @@ A focused SwiftUI component that provides smooth, customizable slide-up sheet tr
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-iOS%2013+-green.svg)](https://developer.apple.com/xcode/swiftui/)
 
 <div align="center">
-    <img src="asests/miniliftoff.gif" alt="Demo" width="720" />
+    <img src="assets/miniliftoff.gif" alt="Demo" width="720" />
 </div>
 
 ## The Story Behind This
