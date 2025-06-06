@@ -2,11 +2,11 @@
 
 A focused SwiftUI component that provides smooth, customizable slide-up sheet transitions with built-in progress tracking.
 
+<div align="center">
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Swift 5.5+](https://img.shields.io/badge/Swift-5.5+-orange.svg)](https://swift.org)
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-iOS%2013+-green.svg)](https://developer.apple.com/xcode/swiftui/)
 
-<div align="center">
     <img src="assets/miniliftoff.gif" alt="Demo" width="720" />
 </div>
 
