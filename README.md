@@ -6,6 +6,10 @@ A focused SwiftUI component that provides smooth, customizable slide-up sheet tr
 [![Swift 5.5+](https://img.shields.io/badge/Swift-5.5+-orange.svg)](https://swift.org)
 [![SwiftUI](https://img.shields.io/badge/SwiftUI-iOS%2013+-green.svg)](https://developer.apple.com/xcode/swiftui/)
 
+<div align="center">
+    <img src="asests/miniliftoff.gif" alt="Demo" width="720" />
+</div>
+
 ## The Story Behind This
 
 So I've been using [Waterllama](https://apps.apple.com/us/app/waterllama/id1454778585) to track my daily water intake (highly recommend it, by the way), and they have this absolutely gorgeous sheet transition that caught my eye. You know how most apps just use the standard iOS sheet that slides up? Well, Waterllama does it way more cleanly, it smoothly shifts the entire main content up. It's such a small detail, but it makes the whole interaction feel so much more polished and engaging.
