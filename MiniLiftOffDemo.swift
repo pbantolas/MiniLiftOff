@@ -43,7 +43,7 @@ struct LiftOffDemoHomeView: View {
             VStack(spacing: 0) {
                 ///header
                 HStack {
-                    Text("more coffee?")
+                    Text("MiniLiftOff Demo")
                     Spacer()
                 }
                 .font(.title)
@@ -53,7 +53,7 @@ struct LiftOffDemoHomeView: View {
                         .font(.title)
                         .fontDesign(.rounded)
 
-                    Text("Caffeination 34% of your goal")
+                    Text("Smooth transitions, 34% progress")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                 }
@@ -90,13 +90,18 @@ struct LiftOffDemoHomeView: View {
             Button {
                 onAction?()
             } label: {
-                Text("MORE")
-                    .font(.title2.weight(.bold))
-                    .fontDesign(.rounded)
-                    .foregroundStyle(.primary)
-                    .padding(18)
-                    .frame(maxWidth: .infinity)
-                    .background(Capsule().fill(.blue))
+                HStack {
+                    Image(systemName: "airplane.departure")
+                        .font(.title2.weight(.bold))
+                        .fontDesign(.rounded)
+                    Text("LIFT OFF")
+                        .font(.title2.weight(.bold))
+                        .fontDesign(.rounded)
+                }
+                .foregroundStyle(.primary)
+                .padding(18)
+                .frame(maxWidth: .infinity)
+                .background(Capsule().fill(.blue))
             }
             .buttonStyle(.plain)
         })
@@ -109,7 +114,7 @@ struct LiftOffDemoSheetView: View {
     var body: some View {
         VStack(spacing: 0) {
             HStack {
-                Text("give me coffee")
+                Text("MiniLiftOff Sheet")
                 Spacer()
                 Button {
                     onDismiss()
@@ -131,9 +136,9 @@ struct LiftOffDemoSheetView: View {
                             .frame(width: 80, height: 80)
 
                         VStack(alignment: .leading, spacing: 8) {
-                            Text("Latte")
+                            Text("Custom Effects")
                                 .font(.title3)
-                            Text("Stay away from hydrating. Collect a new kidney stone the following day!")
+                            Text("Apply blur, scale, and any other effects to your background content during transitions!")
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
                         }
